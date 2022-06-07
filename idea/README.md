@@ -1,4 +1,4 @@
-Add your idea files to this directory. Please don't rename this directory.
+
 # Mudra- The Chat Bot
 
 This Bot was created using the [Bot Framework v4](https://dev.botframework.com), an AI based cognitive service, to implement simple Question and Answer conversational patterns, and can answer questions in more than 60 languages. The Bot uses the [QnA Maker](https://www.qnamaker.ai) as well as the [Text Translator API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/).
