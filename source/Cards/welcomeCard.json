@@ -1,0 +1,27 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ImageSet",
+      "images": [
+        {
+          "type": "Image",
+          "size": "Large",
+          "altText": "",
+          "horizontalAlignment": "Center",
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2VLsjmhFGFNnkVgeB8ZfisXI5EaR6SMkaOw&usqp=CAU",
+          "height": "stretch"
+        }
+      ],
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Hey! I am Mudra ~ “responsible” AI Bot. I will try to guide you to kickstart your career.",
+      "horizontalAlignment": "Center",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}
