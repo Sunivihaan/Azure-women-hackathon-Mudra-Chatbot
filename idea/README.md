@@ -1,68 +1,89 @@
 
 # Mudra- The Chat Bot
 
-This Bot was created using the [Bot Framework v4](https://dev.botframework.com), an AI based cognitive service, to implement simple Question and Answer conversational patterns, and can answer questions in more than 60 languages. The Bot uses the [QnA Maker](https://www.qnamaker.ai) as well as the [Text Translator API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/).
-The [QnA Maker Service](https://www.qnamaker.ai) enables you to build, train and publish a simple question and answer bot based on FAQ URLs, structured documents or editorial content in minutes. In this sample, I demonstrate how to use the QnA Maker service in combination with the Text Translator to answer questions asked in more than 60 languages.
+## Inspiration
 
-## Prerequisites
+Due to responsibilities and lack of opportunities many women in our society having lot of skill set are not exploring themselves. 
+Women's great powers of creativity, resilience, and extraordinary tales have created stories that exemplify the ultimate force of 
+womanhood while bringing beauty to their special life.
 
-The solution was written in [.NET Core SDK](https://dotnet.microsoft.com/download) version 2.1.
-You can check your installed version the following way:
+## What it does
 
-```bash
-# determine dotnet version
-dotnet --version
-```
-## Run the Multilanguage QnA Bot
+we wish to see a nation that develops economically on the global front, then it’s very important to have “Women empowerment”. 
+The actual women empowerment will come by making the women economically independent.
+Mudra(Bot) will make an impact for empowering our women by promoting their rights and skills and oppurtunities.
+with "Mudra" want to see “A woman as the full circle. Within her is the power to create, nurture and transform.”
 
-### Clone the repository
+## How we built it
 
-```bash
-git clone https://github.com/marvinbuss/MultilanguageQnABot.git
-```
+We had created the bot using the Bot Framework that uses QnA Maker Cognitive AI as well as the Text Translator API
 
-- If you downloaded the repository as zip-File, then please unzip the archive.
-- In a terminal, navigate to the project folder.
+### Create QnA Knowledge Base:
 
-### Update `appsettings.json`
+To answer questions from the users a knowledge base been created using a QnA Maker Cognitive AI resource. 
+This contains all the knowledge base we need for our bot(Mudra) chat. 
 
-Your Bot has to connect to the deployed services to function properly. Therefore you have to update the `appsettings.json`.
+Each message is received from the user and use it to forward the users question to the correct QnA Knowledgebase. From the QnA response sent to the end user.
 
-- `MicrosoftAppId`: For local testing not required.
-- `MicrosoftAppPassword`: For local testing not required.
-- `QnAKnowledgebaseId`: Base ID of your published Knowledge Base
-- `QnAAuthKey`: Authentication Key of your published Knowledge Base
-- `QnAEndpointHostName`: Endpoint of your QnA service
-- `QnAThreshold`: Threshold/Accuracy of accepted answers (e.g. 0.6 or 0.7)
-- `TranslatorTextSubscriptionKey`: Subscription Key of your Text Translator API
-- `TranslatorTextEndpoint`: Endpoint of your Text Translator service (e.g. https://api.cognitive.microsofttranslator.com/translate?api-version=3.0)
-- `TranslatorTextRoute`: Should not be changed
+Ex: Question. I am housewife, want to start my career
+	Answer. good. There are many work opportunities available (both online and offline) that can be monitored from home.I will let you know all the possibilities for your career growth.
 
-### Run the Bot
-- Run the bot from a terminal or from Visual Studio, choose option A or B.
+Could you please let me know few of the details to find the best career options.
 
-#### A) From a terminal
+If you are you Educated,
 
-```bash
-# run the bot
-dotnet run
-```
+type your "highest qualification"
 
-#### B) From Visual Studio
+otherwise press "no"
 
-- Launch Visual Studio
-- File -> Open -> Project/Solution
-- Navigate to the project folder.
-- Select `MultilanguageQnABot.csproj` file
-- Press `F5` to run the project
+### Text Translator :
+ To enable our Bot to talk multiple languages. We have created Text Translator API to translate the conversation to user preferred language.
+ Mudra bot translates more than 60 languages.
+ We had created a bot with QnA Maker service in combination with the Text Translator to answer questions asked in more than 60 languages.
+ 
+ Ex: Question: मैं गृहिणी हूं, अपना करियर शुरू करना चाहती हूं
+ Answer: अच्छा। ऐसे कई काम के अवसर उपलब्ध हैं (ऑनलाइन और ऑफलाइन दोनों) जिनकी निगरानी घर से की जा सकती है। मैं आपको आपके करियर के विकास की सभी संभावनाओं के बारे में बताऊंगा।
 
-## Testing the Multilanguage QnA Bot using Bot Framework Emulator
+		क्या आप मुझे सर्वश्रेष्ठ करियर विकल्प खोजने के लिए कुछ विवरण बता सकते हैं।
 
-[Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
-Follow [this](https://github.com/Microsoft/BotFramework-Emulator/releases) link to install the Bot Framework Emulator version 4.3.0 or greater.
+		यदि आप शिक्षित हैं,
 
-### Connect to the bot using Bot Framework Emulator
+		अपनी "उच्चतम योग्यता" टाइप करें
 
-- Launch Bot Framework Emulator
-- File -> Open Bot
-- Enter a Bot URL of `http://localhost:3978/api/messages`
+		अन्यथा "नहीं" दबाएं
+ 
+ 
+### Bot Framework Emulator:
+
+
+For testing Mudra, we used Bot Framework Emulator which is a desktop application that allows 
+us to test and debug Mudra bot on localhost or running remotely through a tunnel.
+
+
+### Deploy the bot to Azure:
+
+For Deployment we had used azure cli tools and the services provided in the azure environment
+
+## Challenges we ran into
+
+We faced technical issues in integrating Translator service to the bot, 
+unfortunately right now we couldn't able to integrate the speech service to the bot due to integrating issues.Finding the right documentation and the services makes us bit difficult to design the solution, but very nice to explore the azure AI services.
+
+## Accomplishments that we're proud of
+
+So, we really do feel proud that we were able to pull it off. Getting familiar with great Microsoft Azure Services(Azure Cognitive services, Azure Applied AI Services or Azure Cognitive Services or Azure Machine Learning )
+frequently deploying and testing to get the hang of it, collecting information, and altogether making things work great. We're really proud of that.
+
+## What we learned
+
+It is apt to say that the process, alone of building a project, whatever it is, holds new knowledge and skills to achieve. 
+We did a lot of that: unlocking new knowledge and skills. This includes:
+ Azure Applied AI Services 
+ Azure Cognitive Services 
+ Azure Machine Learning 
+
+## What's next for Mudra- 
+
+The product is only in like v0.0.1. There is much left to do.
+Azure speech service integration and with LUIS and QnA maker for better user intent prediction.And also need to make cover all the possible responsible AI principles.All these things and more will go into improving the bot.
+
