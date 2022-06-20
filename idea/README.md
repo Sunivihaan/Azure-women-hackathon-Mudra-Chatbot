@@ -3,6 +3,8 @@
 
 ## Latest statistics about Women Empowerment:
 
+![alt text](./images/mudra4.png)
+
 According to a study conducted by the Genpact Centre for Women’s Leadership, about 50 percent of working women in India leave their jobs to take care of their children at the age of 30. Even among those who manage to return, a huge fraction drops out within four months of rejoining the workforce.  The report added that after becoming mothers, only 27 percent of women advance in their careers and continue to be part of the workforce. Of the women who return to employment, a meagre 16 percent advance to hold senior leadership positions. The report was based on a study conducted on women working in the corporate, media, and development sectors.
 
 **The impact on women’s jobs during COVID-19** :
