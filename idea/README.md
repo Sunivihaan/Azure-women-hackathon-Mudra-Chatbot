@@ -100,6 +100,64 @@ Mudra bot translates more than 60 languages. We had created a bot with QnA Maker
 
 For testing Mudra, we used Bot Framework Emulator which is a desktop application that allows us to test and debug Mudra bot on localhost or running remotely through a tunnel.
 
+Sample conversation with Mudra:
+User Reply: I am housewife, want to restart my career
+
+Mudra: Oh Nice, great decision. There are many work opportunities available (both online and offline) that can be monitored from home.I will let you know all the possibilities for your career growth.
+
+Could you please let me know few of the details to find the best career options.
+
+If you are you Educated,
+
+type your "highest qualification"
+
+otherwise press "no"
+
+User Reply: Degree
+
+Mudra: Do you have any experience before ?If yes, please type the years of experience ( Ex: 0-1 year, 2-4 years.....)
+
+Otherwise, press no
+
+User Reply: 0-1 years
+
+Mudra: Let me know your current location ?
+
+User Reply: Bangalore/Bengaluru
+
+Mudra : Do you have any technical knowledge ? Please list the subjects/Domain you are expert in. ( Data Science, .net, java..... )
+
+Otherwise, type your hobbies/interests
+
+User Reply: Data Science
+
+Mudra: Thank you, we found the details below, based on your technology selection :
+
+you can see the insights of the hiring trends of the technology to have selected :
+
+https://insights.naukri.com/career-tools/tech-careers/how-to-become-data-analyst
+
+List of Job Recommendations based on your technology selection :
+
+https://insights.naukri.com/career-tools/tech-careers/top-companies-for-data-analyst
+
+Is this helpful ?
+
+User Reply: yes
+
+Mudra : Thank you 
+
+Hey, you are worrying about your child to take care, while you are leaving to office.
+
+Don't worry. I will let you know the day care centers available near to you.
+
+Let me know the location which you need day care/Child care centers.
+
+User Reply: rajaji nagar, banglaore
+
+Mudra: 
+
+![alt text](./images/mudra6.png)
 
 ### Deploy the bot to Azure:
 
