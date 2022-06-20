@@ -5,7 +5,7 @@
 
 According to a study conducted by the Genpact Centre for Women’s Leadership, about 50 percent of working women in India leave their jobs to take care of their children at the age of 30. Even among those who manage to return, a huge fraction drops out within four months of rejoining the workforce.  The report added that after becoming mothers, only 27 percent of women advance in their careers and continue to be part of the workforce. Of the women who return to employment, a meagre 16 percent advance to hold senior leadership positions. The report was based on a study conducted on women working in the corporate, media, and development sectors.
 
-The impact on women’s jobs during COVID-19 :
+**The impact on women’s jobs during COVID-19** :
 
 Nearly half of all women said the pandemic had negatively impacted their career paths. Fifty-eight percent are in the process of rejoining the workforce, 48 percent had quit their jobs before COVID-19, 32 percent quit during, and another 20 percent were between jobs.  About 58 percent of women respondents believe that over the last two years, female employees quit their jobs to take on more family responsibilities, such as childcare. Thirty-two percent of women said they quit because of the pandemic, with health concerns (21 percent) and maternity leave (13 percent) the other reasons given.
 
@@ -25,9 +25,28 @@ Many of the women does not gets a second chance to reclaim her career. Returning
 
 Due to responsibilities and lack of opportunities many women in our society having lot of skill set are not exploring themselves. Women's great powers of creativity, resilience, and extraordinary tales have created stories that exemplify the ultimate force of womanhood while bringing beauty to their special life.
 
+## Our Solution: Powering women to return to work with help of Azure responsible conversational AI
+
+So after doing rigorous market research and found that the existing solutions / platforms (like job portals, career websites etc) are not tailor made as per their requirements.
+   - Transparency is not maintained. So, they often stop taking the initiative itself.
+   - UI is not user friendly.
+   - No personalization 
+
+So, the solution to this problem can be an AI-based responsible Chatbot called Mudra where women from urban and even rural/remote areas can chat with it and:
+  - Find relevant job opportunities nearby
+  - Know more details about the job.
+  - provide access to resources, education based on the location.
+  - Provide child/day care centres near to their office/work locations.
+
+**Bot goals:**
+  - Intelligent
+  - Fast & Accurate
+  - Secure
+  - Easy to access
+
 ## What it does
 
-We wish to see a nation that develops economically on the global front, then it’s very important to have “Women empowerment”. The actual women empowerment will come by making the women economically independent.Mudra(Bot) will make an impact for empowering our women by promoting their rights and skills and oppurtunities, with "Mudra" want to see “A woman as the full circle. Within her is the power to create, nurture and transform.”
+We wish to see a nation that develops economically on the global front, then it’s very important to have “Women empowerment”. The actual women empowerment will come by making the women economically independent.**Mudra(ChatBot)** will make an impact for empowering our women by promoting their rights and skills and oppurtunities, with "Mudra" want to see “A woman as the full circle. Within her is the power to create, nurture and transform.”
 
 ## How we built it
 
@@ -96,9 +115,9 @@ So, we really do feel proud that we were able to pull it off. Getting familiar w
 
 It is apt to say that the process, alone of building a project, whatever it is, holds new knowledge and skills to achieve. 
 We did a lot of that: unlocking new knowledge and skills. This includes:
- Azure Applied AI Services 
- Azure Cognitive Services 
- Azure Machine Learning 
+ - Azure Applied AI Services 
+ - Azure Cognitive Services 
+ - Azure Machine Learning 
 
 ## What's next for Mudra- 
 
