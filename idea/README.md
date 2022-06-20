@@ -38,42 +38,44 @@ This contains all the knowledge base we need for our bot(Mudra) chat.
 
 Each message is received from the user and use it to forward the users question to the correct QnA Knowledgebase. From the QnA response sent to the end user.
 
-Ex: Question. I am housewife, want to start my career
-	Answer. good. There are many work opportunities available (both online and offline) that can be monitored from home.I will let you know all the possibilities for your career growth.
+	Ex: Question. I am housewife, I want to restart my career
+	
+	Answer. Oh Nice, great decision. There are many work opportunities available (both online and offline) that can be monitored from home.I will let you know all 		
+		the possibilities for your career growth.
 
-Could you please let me know few of the details to find the best career options.
+		Could you please let me know few of the details to find the best career options.
 
-If you are you Educated,
+		If you are you Educated,
 
-type your "highest qualification"
+		type your "highest qualification"
 
-otherwise press "no"
+		otherwise press "no"
+
 
 ### Text Translator :
- To enable our Bot to talk multiple languages. We have created Text Translator API to translate the conversation to user preferred language.
- Mudra bot translates more than 60 languages.
- We had created a bot with QnA Maker service in combination with the Text Translator to answer questions asked in more than 60 languages.
- 
- Ex: Question: 
- 
- मैं गृहिणी हूं, अपना करियर शुरू करना चाहती हूं
- 
- Answer: अच्छा। ऐसे कई काम के अवसर उपलब्ध हैं (ऑनलाइन और ऑफलाइन दोनों) जिनकी निगरानी घर से की जा सकती है। मैं आपको आपके करियर के विकास की सभी संभावनाओं के बारे में बताऊंगा।
- 
- 	 क्या आप मुझे सर्वश्रेष्ठ करियर विकल्प खोजने के लिए कुछ विवरण बता सकते हैं।
 
- 	 यदि आप शिक्षित हैं,
+To enable our Bot to talk multiple languages. We have created Text Translator API to translate the conversation to user preferred language.
 
- 	 अपनी "उच्चतम योग्यता" टाइप करें
+Mudra bot translates more than 60 languages. We had created a bot with QnA Maker service in combination with the Text Translator to answer questions asked in more    than 60 languages.
+ 
+ 	Ex: Question: मैं गृहिणी हूं, मैं अपना करियर फिर से शुरू करना चाहती हूं
+ 
+ 	Answer: ओह अच्छा, महान निर्णय. कई काम के अवसर उपलब्ध हैं (ऑनलाइन और ऑफलाइन दोनों) जिन्हें घर से मॉनिटर किया जा सकता है। मैं आपको अपने कैरियर के विकास के लिए सभी संभावनाओं 		 
+		को बतादूंगा।
 
- 	 अन्यथा "नहीं" दबाएं
+		क्या आप कृपया मुझे सबसे अच्छे कैरियर विकल्पों को खोजने के लिए कुछ विवरणों को बता सकते हैं।
+
+		यदि आप शिक्षित हैं,
+
+		अपनी "उच्चतम योग्यता" लिखें
+
+		अन्यथा प्रेस "नहीं"
  
  
 ### Bot Framework Emulator:
 
 
-For testing Mudra, we used Bot Framework Emulator which is a desktop application that allows 
-us to test and debug Mudra bot on localhost or running remotely through a tunnel.
+For testing Mudra, we used Bot Framework Emulator which is a desktop application that allows us to test and debug Mudra bot on localhost or running remotely through a tunnel.
 
 
 ### Deploy the bot to Azure:
@@ -82,13 +84,11 @@ For Deployment we had used azure cli tools and the services provided in the azur
 
 ## Challenges we ran into
 
-We faced technical issues in integrating Translator service to the bot, 
-unfortunately right now we couldn't able to integrate the speech service to the bot due to integrating issues.Finding the right documentation and the services makes us bit difficult to design the solution, but very nice to explore the azure AI services.
+Unfortunately right now we couldn't able to integrate the speech service to the bot due to integrating issues.Finding the right documentation and the services makes us bit difficult to design the solution, but very nice to explore the azure AI services.
 
 ## Accomplishments that we're proud of
 
-So, we really do feel proud that we were able to pull it off. Getting familiar with great Microsoft Azure Services(Azure Cognitive services, Azure Applied AI Services or Azure Cognitive Services or Azure Machine Learning )
-frequently deploying and testing to get the hang of it, collecting information, and altogether making things work great. We're really proud of that.
+So, we really do feel proud that we were able to pull it off. Getting familiar with great Microsoft Azure Services(Azure Cognitive services, Azure Applied AI Services or Azure Cognitive Services or Azure Machine Learning ) collecting information, and altogether making things work great. We're really proud of that.
 
 ## What we learned
 
