@@ -17,7 +17,7 @@ A significant proportion of employers (39 percent) agreed with the view that fem
 
 More women than men are often forced to take a career break due to personal reasons, including but not limited to pregnancy, childbirth, taking care of children or the elderly. Another reason is the lack of expected career growth or development.
 
-Many of the women does not gets a second chance to reclaim her career. Returning to work after a break still remains tough for a lot of women employees. 
+Many of the women does not gets a second chance to reclaim her career. Returning to work after a break still remains tough for a lot of women employees. 
 
 ## Inspiration
 
