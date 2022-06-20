@@ -1,2 +1,3 @@
-# hackathon-submission-template
-Please use this template for submitting solutions for the Microsoft Azure Women's Hackathon 2022
+# Mudra - An Imprint of Life
+
+A next-gen “responsible” AI bot catering to women returning to work after a career break
