@@ -1,18 +1,35 @@
 
-# Mudra- The Chat Bot
+# Mudra- An imprint of life
+
+## Latest statistics about Women Empowerment:
+![image](https://user-images.githubusercontent.com/33000263/174594350-3dacc32e-b7e3-4ed8-9e88-84c6bf297d46.png)
+
+According to a study conducted by the Genpact Centre for Women’s Leadership, about 50 percent of working women in India leave their jobs to take care of their children at the age of 30. Even among those who manage to return, a huge fraction drops out within four months of rejoining the workforce.  The report added that after becoming mothers, only 27 percent of women advance in their careers and continue to be part of the workforce. Of the women who return to employment, a meagre 16 percent advance to hold senior leadership positions. The report was based on a study conducted on women working in the corporate, media, and development sectors.
+
+The impact on women’s jobs during COVID-19 :
+
+Nearly half of all women said the pandemic had negatively impacted their career paths. Fifty-eight percent are in the process of rejoining the workforce, 48 percent had quit their jobs before COVID-19, 32 percent quit during, and another 20 percent were between jobs.  About 58 percent of women respondents believe that over the last two years, female employees quit their jobs to take on more family responsibilities, such as childcare. Thirty-two percent of women said they quit because of the pandemic, with health concerns (21 percent) and maternity leave (13 percent) the other reasons given.
+
+About 58 percent of women respondents believe that over the last two years, female employees quit their jobs to take on more family responsibilities, such as childcare. Thirty-two percent of women said they quit because of the pandemic, with health concerns (21 percent) and maternity leave (13 percent) the other reasons given. A significant proportion of employers (39 percent) agreed with the view that female employees quit their organisations over the last two years because of family responsibilities. Twenty-seven percent said that a lack of appropriate recognition by management was a significant factor in causing women to quit, and 20 percent believed health and safety concerns, likely driven by the pandemic, were the reason.
+
+A significant proportion of employers (39 percent) agreed with the view that female employees quit their organisations over the last two years because of family responsibilities. Twenty-seven percent said that a lack of appropriate recognition by management was a significant factor in causing women to quit, and 20 percent believed health and safety concerns, likely driven by the pandemic, were the reason.
+
+## Present Situation
+
+Present Situation :
+![image](https://user-images.githubusercontent.com/33000263/174595064-42a9255f-7712-4547-8b37-b6220251499f.png)
+
+More women than men are often forced to take a career break due to personal reasons, including but not limited to pregnancy, childbirth, taking care of children or the elderly. Another reason is the lack of expected career growth or development.
+
+Many of the women does not gets a second chance to reclaim her career. Returning to work after a break still remains tough for a lot of women employees. 
 
 ## Inspiration
 
-Due to responsibilities and lack of opportunities many women in our society having lot of skill set are not exploring themselves. 
-Women's great powers of creativity, resilience, and extraordinary tales have created stories that exemplify the ultimate force of 
-womanhood while bringing beauty to their special life.
+Due to responsibilities and lack of opportunities many women in our society having lot of skill set are not exploring themselves. Women's great powers of creativity, resilience, and extraordinary tales have created stories that exemplify the ultimate force of womanhood while bringing beauty to their special life.
 
 ## What it does
 
-we wish to see a nation that develops economically on the global front, then it’s very important to have “Women empowerment”. 
-The actual women empowerment will come by making the women economically independent.
-Mudra(Bot) will make an impact for empowering our women by promoting their rights and skills and oppurtunities.
-with "Mudra" want to see “A woman as the full circle. Within her is the power to create, nurture and transform.”
+We wish to see a nation that develops economically on the global front, then it’s very important to have “Women empowerment”. The actual women empowerment will come by making the women economically independent.Mudra(Bot) will make an impact for empowering our women by promoting their rights and skills and oppurtunities, with "Mudra" want to see “A woman as the full circle. Within her is the power to create, nurture and transform.”
 
 ## How we built it
 
