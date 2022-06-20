@@ -43,6 +43,9 @@ namespace Microsoft.BotBuilderSamples
                     await turnContext.SendActivityAsync(response, cancellationToken);
 
                     await Task.Delay(5000);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hey, I had also been trained on getting the details of day/child care centers near by your office/work location."), cancellationToken);
+
+                    await Task.Delay(5000);
                     await turnContext.SendActivityAsync(MessageFactory.Text($"you can talk to me in your preferred language."), cancellationToken);
 
                 }
