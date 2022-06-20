@@ -1,7 +1,7 @@
 # Mudra - The ChatBot
 
-This Bot was created using the [Bot Framework v4](https://dev.botframework.com), an AI based cognitive service, to implement simple Question and Answer conversational patterns, and can answer questions in more than 60 languages. The Bot uses the [QnA Maker](https://www.qnamaker.ai) as well as the [Text Translator API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/).
-The [QnA Maker Service](https://www.qnamaker.ai) enables you to build, train and publish a simple question and answer bot based on FAQ URLs, structured documents or editorial content in minutes. In this sample, I demonstrate how to use the QnA Maker service in combination with the Text Translator to answer questions asked in more than 60 languages.
+Mudra- chatBot was created using the [Bot Framework v4](https://dev.botframework.com), an AI based cognitive service, to implement simple Question and Answer conversational patterns, and can answer questions in more than 60 languages. The Bot uses the [QnA Maker](https://www.qnamaker.ai) as well as the [Text Translator API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/).
+We had implemented the chatbot with QnA Maker service in combination with the Text Translator to answer questions asked in more than 60 languages.
 
 ## Prerequisites
 
@@ -12,12 +12,12 @@ You can check your installed version the following way:
 # determine dotnet version
 dotnet --version
 ```
-## Run the Multilanguage QnA Bot
+## Run the Mudra - Chatbot
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/marvinbuss/MultilanguageQnABot.git
+git clone https://github.com/Sunivihaan/Azure-women-hackathon-Mudra-Chatbot.git
 ```
 
 - If you downloaded the repository as zip-File, then please unzip the archive.
@@ -55,7 +55,7 @@ dotnet run
 - Select `MultilanguageQnABot.csproj` file
 - Press `F5` to run the project
 
-## Testing the Multilanguage QnA Bot using Bot Framework Emulator
+## Testing the Mudra ChatBot using Bot Framework Emulator
 
 [Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
 Follow [this](https://github.com/Microsoft/BotFramework-Emulator/releases) link to install the Bot Framework Emulator version 4.3.0 or greater.
